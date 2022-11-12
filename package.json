@@ -1,17 +1,29 @@
 {
   "name": "my-port",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Fitri Mahdon's website",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
+    "prettier": "prettier --write .",
     "lint": "next lint"
   },
+  "keywords": [],
+  "author": "Fitri Mahdon",
+  "license": "MIT",
   "dependencies": {
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@chakra-ui/icons": "^2.0.11",
+    "@chakra-ui/react": "^2.3.5",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "framer-motion": "^7.5.3",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "three": "^0.145.0"
   },
   "devDependencies": {
     "eslint": "8.25.0",
