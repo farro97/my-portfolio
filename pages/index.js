@@ -12,27 +12,13 @@ import {
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
-
-
+import Section from "../components/section";
 
 export default function Home() {
   return (
     <Layout>
       <Container maxW={"1000px"}>
         {/* Small INTRO */}
-
-        <Box
-          borderRadius="lg"
-          mb={6}
-          p={3}
-          w="500px"
-          m={"auto"}
-          textAlign="center"
-          bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-          css={{ backdropFilter: "blur(10px)" }}
-        >
-          Hello, I&apos;m an Software Developer based in Singapore!
-        </Box>
 
         {/* PROFILE IMAGE */}
         <Box flexShrink={1} mt={{ base: 4, md: 5 }} textAlign="left">
@@ -52,7 +38,7 @@ export default function Home() {
             <Heading as="h2" variant="page-title">
               Fitri Mahdon
             </Heading>
-            <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+            <p>Software Developer | Photographer</p>
           </Box>
         </Box>
       </Container>
@@ -87,11 +73,12 @@ export default function Home() {
         </Text>
         <br />
         <Text>
-          I occasionally do photography and editing using Lightroom and
-          Photoshop software. Love to play guitar too.
+          I occasionally do
           <NextLink href="https://fitrimahdon.myportfolio.com/work" passHref>
-            <Link target="_blank">Dev as Life</Link>
+            <Link target="_blank"> photography </Link>
           </NextLink>
+          and editing using Lightroom and Photoshop software. I love to play
+          guitar too. 🎸
         </Text>
       </Box>
       <Box align="left" my={4} justifyItems="space-between">
@@ -102,7 +89,7 @@ export default function Home() {
         </NextLink>
       </Box>
       {/* BIO YEAR */}
-      <Box mb={6} p={3}>
+      <Section mb={6} p={3}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
@@ -121,14 +108,37 @@ export default function Home() {
         </BioSection>
         <BioSection>
           <BioYear>2020 - 2021</BioYear>
-          Software Engineer - AiDA Technologies (Intern for 6 monthts and
-          converted into Full-Time)
+          AiDA Technologies - Software Engineer
         </BioSection>
         <BioSection>
           <BioYear>2021-2023</BioYear>
           Singapore Police Force (NS) - TransCom
         </BioSection>
-      </Box>
+      </Section>
+
+      {/* SKILLS */}
+
+      <Section>
+        <Heading as="h3" variant="section-title">
+          Skills
+        </Heading>
+        <BioSection>
+          <BioYear>Technical Skills</BioYear>
+          Full-Stack Developer, Scripting, UI/UX, Mobile App Dev, Photography &
+          Editing
+        </BioSection>
+
+        <BioSection>
+          <BioYear>Software Experience & Framework</BioYear>
+          React JS, Angular, Ionic Framework, Spring Boot (Java), Flask
+          (Python), Adobe Photoshop, Lightroom Adobe
+        </BioSection>
+
+        <BioSection>
+          <BioYear>Programming Languages</BioYear>
+          Python, Java, JavaScript, VBA, PHP, SQL
+        </BioSection>
+      </Section>
     </Layout>
   );
 }
