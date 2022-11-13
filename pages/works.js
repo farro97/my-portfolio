@@ -5,6 +5,7 @@ import { WorkGridItem } from "../components/grid-item";
 
 import thumbTPOpenHouse from "../public/images/works/tp-open.png";
 import thumbInnovation from "../public/images/works/innovation-challenge.png";
+import thumbPolyFintech from "../public/images/works/polyfintech.png";
 
 const Works = () => (
   <Layout title="Works">
@@ -29,7 +30,7 @@ const Works = () => (
           <WorkGridItem
             id="polyfintech 100 api"
             title="Polyfintech 100 API Hackathon 2020 (TP)"
-            thumbnail={thumbInnovation}
+            thumbnail={thumbPolyFintech}
           >
             Took part in the hackathon competition and compete against four
             other local polytechnics to develop Fintech prototypes using Open
