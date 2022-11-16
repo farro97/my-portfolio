@@ -27,7 +27,7 @@ export default function Home() {
               src="/images/george.jpg"
               alt="Profile image"
               objectFit="cover"
-              boxSize="350px"
+              boxSize="300px"
               borderRadius={"15px"}
             />
           </Box>
