@@ -118,6 +118,7 @@ export default function Home() {
 
       {/* SKILLS */}
 
+              
       <Section>
         <Heading as="h3" variant="section-title">
           Skills

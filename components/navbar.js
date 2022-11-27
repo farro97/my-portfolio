@@ -17,7 +17,7 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
-
+import { IoLogoLinkedin } from 'react-icons/io5'
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
@@ -26,6 +26,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       <Link
         p={2}
         bg={active ? 'grassTeal' : undefined}
+        borderRadius={10}
         color={active ? '#202023' : inactiveColor}
         target={target}
         {...props}
@@ -78,7 +79,7 @@ const Navbar = props => {
      
           <LinkItem
             target="_blank"
-            href="https://github.com/farro97"
+            href="https://github.com/farro97/my-portfolio"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -87,6 +88,18 @@ const Navbar = props => {
           >
             <IoLogoGithub />
             Source
+          </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="https://www.linkedin.com/in/muhd-fitri-mohd-mahdon/"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoLinkedin />
+            Linkedin
           </LinkItem>
         </Stack>
 
@@ -110,10 +123,17 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/farro97"
+                  href="https://github.com/farro97/my-portfolio"
                 >
                   View Source
                 </MenuItem>
+                <MenuItem
+                  as={Link}
+                  href="https://www.linkedin.com/in/muhd-fitri-mohd-mahdon/"
+                >
+                  View Linkedin
+                </MenuItem>
+                
               </MenuList>
             </Menu>
           </Box>
