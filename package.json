@@ -2,7 +2,6 @@
   "name": "my-port",
   "version": "1.0.0",
   "description": "Fitri Mahdon's website",
-  "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
