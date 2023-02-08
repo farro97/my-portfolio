@@ -1,6 +1,5 @@
 import { Box, Container, Heading, Image, SimpleGrid } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
-import PhotoGrid from "../components/photo";
 import styled from '@emotion/styled'
 
 const rowStyle = {
@@ -37,21 +36,21 @@ const Photography = () => {
 
         <div style={rowStyle}>
           <ColImg>
-            <img style={imgSty} src="/images/canada-tower.jpg"></img>
-            <img style={imgSty} src="/images/cal_1.jpg"></img>
-            <img style={imgSty} src="/images/cal_2.jpg"></img>
-            <img style={imgSty} src="/images/cal_3.jpg"></img>
+            <Image style={imgSty} src="/images/canada-tower.jpg"></Image>
+            <Image style={imgSty} src="/images/cal_1.jpg"></Image>
+            <Image style={imgSty} src="/images/cal_2.jpg"></Image>
+            <Image style={imgSty} src="/images/cal_3.jpg"></Image>
           </ColImg>
           <ColImg >
-            <img style={imgSty} src="/images/cal_5.jpg"></img>
-            <img style={imgSty} src="/images/cal_6.jpg"></img>
-            <img style={imgSty} src="/images/cal_7.jpg"></img>
+            <Image style={imgSty} src="/images/cal_5.jpg"></Image>
+            <Image style={imgSty} src="/images/cal_6.jpg"></Image>
+            <Image style={imgSty} src="/images/cal_7.jpg"></Image>
           </ColImg>
           <ColImg >
-            <img style={imgSty} src="/images/cal_4.jpg"></img>
-            <img style={imgSty} src="/images/cal_9.jpg"></img>
-            <img style={imgSty} src="/images/cal_8.jpg"></img>
-            <img style={imgSty} src="/images/muz.jpg"></img>
+            <Image style={imgSty} src="/images/cal_4.jpg"></Image>
+            <Image style={imgSty} src="/images/cal_9.jpg"></Image>
+            <Image style={imgSty} src="/images/cal_8.jpg"></Image>
+            <Image style={imgSty} src="/images/muz.jpg"></Image>
           </ColImg>
         </div>
       </Container>
