@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image, SimpleGrid } from "@chakra-ui/react";
+import { Container, Heading, Image } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import styled from '@emotion/styled'
 
