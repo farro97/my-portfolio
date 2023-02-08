@@ -9,7 +9,7 @@ const variants = {
 }
 
 const Layout = ({ children, title }) => {
-  const t = `${title} - Fitri Mahdon`
+  const t = `${title}`
   return (
     <motion.article
       initial="hidden"
