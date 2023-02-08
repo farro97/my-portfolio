@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Fitri's homepage" />
+        <meta name="description" content="Fitri's website" />
         <meta name="author" content="Fitri Mahdon" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -25,7 +25,7 @@ const Main = ({ children, router }) => {
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://fitzfarro.com/og_image.png" />
         <meta property="og:description" content="Hello, I'm a software developer!"/>
-        <title>Fitri Mahdon - Homepage</title>
+        <title>Fitri Mahdon</title>
       </Head>
 
       <NavBar path={router.asPath} />
