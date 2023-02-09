@@ -1,9 +1,9 @@
 import { Container, Heading, Image, Modal, ModalContent,
   ModalCloseButton,
-  ModalHeader, ModalOverlay, useDisclosure, ModalFooter, ModalBody, Button } from "@chakra-ui/react";
+  ModalOverlay, useDisclosure, ModalFooter, ModalBody } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import styled from '@emotion/styled'
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const rowStyle = {
   display: "flex",
