@@ -1,6 +1,6 @@
 import { Box, Container, Image, Tooltip } from "@chakra-ui/react";
 import { createRef } from "react";
-import { BioYear } from "./bio";
+
 
 const webtech = [
   ["/images/skills/reactjs.png", "React JS"],
@@ -21,9 +21,9 @@ const Skills = () => {
       <Container display={"flex"} mb={"20px"}>
         {webtech.map((skill, index) => {
           return (
-            <div>
+            <div key={index}>
               <Tooltip hasArrow label={skill[1]} bg="gray.300" color="black">
-                <Image ref={ref} width={"50px"} src={skill[0]} key={index} />
+                <Image ref={ref} width={"50px"} src={skill[0]} alt={skill[1]} />
               </Tooltip>
             </div>
           );
