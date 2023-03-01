@@ -5,22 +5,14 @@ import {
   Heading,
   Text,
   Box,
-  Button,
   useColorModeValue,
   Image,
-  Slider,
-  SliderTrack,
-  SliderFilledTrack,
 } from "@chakra-ui/react";
-import { ChevronRightIcon } from "@chakra-ui/icons";
 import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import Skills from "../components/skills";
 
-const slider_height = {
-  transform: "translateY(-290%) !important",
-};
 
 export default function Home() {
   return (
