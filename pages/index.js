@@ -8,11 +8,19 @@ import {
   Button,
   useColorModeValue,
   Image,
+  Slider,
+  SliderTrack,
+  SliderFilledTrack,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
+import Skills from "../components/skills";
+
+const slider_height = {
+  transform: "translateY(-290%) !important",
+};
 
 export default function Home() {
   return (
@@ -81,13 +89,7 @@ export default function Home() {
           guitar too. 🎸
         </Text>
       </Box>
-      <Box align="left" my={4} justifyItems="space-between">
-        <NextLink href="/works" passHref scroll={false}>
-          <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-            My portfolio
-          </Button>
-        </NextLink>
-      </Box>
+
       {/* BIO YEAR */}
       <Section mb={6} p={3}>
         <Heading as="h3" variant="section-title">
@@ -118,20 +120,18 @@ export default function Home() {
 
       {/* SKILLS */}
 
-              
       <Section>
         <Heading as="h3" variant="section-title">
           Skills
         </Heading>
-        <BioSection>
-          <BioYear>Technical Skills</BioYear>
-          Full-Stack Developer, Scripting, UI/UX, Mobile App Dev, Photography &
-          Editing
-        </BioSection>
+        
+        <Skills/>
+
+
 
         <BioSection>
           <BioYear>Software Experience & Framework</BioYear>
-          React JS, Angular, Ionic Framework, Spring Boot (Java), Flask
+          Ionic, Spring Boot (Java), Flask
           (Python), Adobe Photoshop, Lightroom Adobe
         </BioSection>
 
