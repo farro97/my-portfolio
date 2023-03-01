@@ -71,6 +71,10 @@ const Photography = () => {
         </div>
       </Container>
 
+
+      {/* 
+      MODAL 
+      */}
       <Modal size={'2xl'} onClose={onClose} isOpen={isOpen} isCentered>
         <ModalOverlay />
         <ModalContent>
@@ -79,7 +83,7 @@ const Photography = () => {
             {/* <Lorem count={2} /> */}
           </ModalBody>
           <ModalFooter> 
-            <Image src={currentPhoto}/>
+            <Image src={currentPhoto} maxH={'600px'} m={'auto'}/>
             {/* <Button onClick={onClose}>Close</Button> */}
           </ModalFooter>
         </ModalContent>
