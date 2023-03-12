@@ -8,7 +8,7 @@ import {
   useColorModeValue,
   Image,
 } from "@chakra-ui/react";
-import { BioBox, BioSection, BioText, BioYear } from "../components/bio";
+import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import Skills from "../components/skills";
