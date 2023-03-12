@@ -8,11 +8,10 @@ import {
   useColorModeValue,
   Image,
 } from "@chakra-ui/react";
-import { BioSection, BioYear } from "../components/bio";
+import { BioBox, BioSection, BioText, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import Skills from "../components/skills";
-
 
 export default function Home() {
   return (
@@ -82,32 +81,44 @@ export default function Home() {
         </Text>
       </Box>
 
+      
       {/* BIO YEAR */}
       <Section mb={6} p={3}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-        <BioSection>
-          <BioYear>2015</BioYear>
+        <table>
+        <tbody>
+        <tr >
+          <td style={{ width: "100px", display: "table", fontWeight: 'bold'}}>2021 - 2023</td>
+          <td>Singapore Police Force - TransCom (NSF)</td>
+        </tr>
+        <tr>
+          <td style={{ display: "table" ,textAlign: 'right', fontWeight: 'bold'}}>2020 - 2021</td>
+          <td>AiDA Technologies - Software Engineer</td>
+        </tr>
+        <tr>
+          <td style={{ display: "table", textAlign: 'right', fontWeight: 'bold' }}>2021</td>
+          <td>Temasek Polytechnic - Financial Business Informatics</td>
+        </tr>
+        <tr>
+          <td style={{ display: "table", textAlign: 'right', fontWeight: 'bold' }}>2018</td>
+          <td>
+            ITE Higher Nitec - Business Information System with Merit and Gold
+            Medallist
+          </td>
+        </tr>
+        <tr>
+          <td style={{ display: "table", textAlign: 'right', fontWeight: 'bold' }}>2015</td>
+          <td>
           Junyuan Secondary School (&apos;O&apos; level)
-        </BioSection>
-        <BioSection>
-          <BioYear>2018</BioYear>
-          ITE Higher Nitec - Business Information System with Merit and Gold
-          Medallist
-        </BioSection>
-        <BioSection>
-          <BioYear>2021</BioYear>
-          Temasek Polytechnic - Financial Business Informatics
-        </BioSection>
-        <BioSection>
-          <BioYear>2020 - 2021</BioYear>
-          AiDA Technologies - Software Engineer
-        </BioSection>
-        <BioSection>
-          <BioYear>2021-2023</BioYear>
-          Singapore Police Force (NS) - TransCom
-        </BioSection>
+          </td>
+        </tr>
+        </tbody>
+      
+      </table>
+
+
       </Section>
 
       {/* SKILLS */}
@@ -116,15 +127,13 @@ export default function Home() {
         <Heading as="h3" variant="section-title">
           Skills
         </Heading>
-        
-        <Skills/>
 
-
+        <Skills />
 
         <BioSection>
           <BioYear>Software Experience & Framework</BioYear>
-          Ionic, Spring Boot (Java), Flask
-          (Python), Adobe Photoshop, Lightroom Adobe
+          Ionic, Spring Boot (Java), Flask (Python), Adobe Photoshop, Lightroom
+          Adobe
         </BioSection>
 
         <BioSection>
