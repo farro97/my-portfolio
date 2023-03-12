@@ -18,7 +18,7 @@ const ref = createRef();
 const Skills = () => {
   return (
     <Box>
-      <Container display={"flex"} mb={"20px"}>
+      <Container display={"flex"} mb={"20px"} justifyContent={'space-around'}>
         {webtech.map((skill, index) => {
           return (
             <div key={index}>
