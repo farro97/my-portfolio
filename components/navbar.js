@@ -78,9 +78,9 @@ const Navbar = props => {
           <LinkItem href="/photography" path={path}>
             Photography
           </LinkItem>
-    
-     
-     
+          {/* <LinkItem href="#" path={path}>
+            Honours & Awards
+          </LinkItem>  */}
           <LinkItem
             target="_blank"
             href="https://github.com/farro97/my-portfolio"
@@ -128,6 +128,9 @@ const Navbar = props => {
                 <NextLink href="/photography" passHref>
                   <MenuItem as={Link}>Photography</MenuItem>
                 </NextLink>
+                {/* <NextLink href="#" passHref>
+                  <MenuItem as={Link}>Honours & Awards</MenuItem>
+                </NextLink> */}
                 <MenuItem
                   as={Link}
                   href="https://github.com/farro97/my-portfolio"
