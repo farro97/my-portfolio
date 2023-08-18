@@ -91,6 +91,10 @@ export default function Home() {
         <tbody>
         <tr >
           <td style={{ width: "100px", display: "table", fontWeight: 'bold'}}>2021 - 2023</td>
+          <td>NCS - Software Engineer</td>
+        </tr>
+        <tr >
+          <td style={{ width: "100px", display: "table", fontWeight: 'bold'}}>2021 - 2023</td>
           <td>Singapore Police Force - TransCom (NSF)</td>
         </tr>
         <tr>
