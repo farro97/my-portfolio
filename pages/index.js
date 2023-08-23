@@ -17,8 +17,6 @@ export default function Home() {
   return (
     <Layout>
       <Container maxW={"1000px"}>
-        {/* Small INTRO */}
-
         {/* PROFILE IMAGE */}
         <Box flexShrink={1} mt={{ base: 4, md: 5 }} textAlign="left">
           <Box display="inline-block" overflow="hidden">
@@ -37,7 +35,7 @@ export default function Home() {
             <Heading as="h2" variant="page-title">
               Fitri Mahdon
             </Heading>
-            <p>Software Developer | Photographer</p>
+            <p>Software Engineer | Photographer</p>
           </Box>
         </Box>
       </Container>
@@ -90,8 +88,8 @@ export default function Home() {
         <table>
         <tbody>
         <tr >
-          <td style={{ width: "100px", display: "table", fontWeight: 'bold'}}>2021 - 2023</td>
-          <td>NCS - Software Engineer</td>
+          <td style={{ width: "130px", display: "table", fontWeight: 'bold'}}>2023 - Present</td>
+          <td>NCS Group - Software Engineer</td>
         </tr>
         <tr >
           <td style={{ width: "100px", display: "table", fontWeight: 'bold'}}>2021 - 2023</td>
@@ -119,19 +117,15 @@ export default function Home() {
           </td>
         </tr>
         </tbody>
-      
       </table>
-
-
+      
       </Section>
-
       {/* SKILLS */}
 
       <Section>
         <Heading as="h3" variant="section-title">
           Skills
         </Heading>
-
         <Skills />
 
         <BioSection>
@@ -142,7 +136,7 @@ export default function Home() {
 
         <BioSection>
           <BioYear>Programming Languages</BioYear>
-          Python, Java, JavaScript, VBA, PHP, SQL
+          Python, Java, C++, JavaScript, Typescript, VBA, PHP, SQL
         </BioSection>
       </Section>
     </Layout>

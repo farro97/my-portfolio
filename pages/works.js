@@ -17,7 +17,7 @@ const Works = () => (
         <Section>
           <WorkGridItem
             id="tp-open-house"
-            title="TP Open House 2021 Mobile App"
+            title="TP Open House 2020 & 2021 Mobile App"
             thumbnail={thumbTPOpenHouse}
           >
             In my final year in TP, my team and I developed an app called TP
