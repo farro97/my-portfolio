@@ -21,7 +21,7 @@ export default function Home() {
         <Box flexShrink={1} mt={{ base: 4, md: 5 }} textAlign="left">
           <Box display="inline-block" overflow="hidden">
             <Image
-              src="/images/george.jpg"
+              src="/images/fit_1.jpg"
               alt="Profile image"
               objectFit="cover"
               boxSize="300px"
