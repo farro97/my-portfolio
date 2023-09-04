@@ -21,21 +21,21 @@ const Main = ({ children, router }) => {
       <BackgroundParticles/>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Fitri's website" />
+        <meta name="description" content="Fitri's personal website" />
         <meta name="author" content="Fitri Mahdon" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Fitri Mahdon" />
         <meta property="og:site_name" content="Fitri Mahdon" />
-        <meta name="og:title" content="Fitri Mahdon" />
+        <meta name="og:title" content="Fitri Mahdon - Software Engineer" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://fitzfarro.com/og_image.png"
+          content="https://fitrimahdon.com/og_image.png"
         />
         <meta
           property="og:description"
-          content="Hello, I'm a software engineer!"
+          content="Hello, I'm a Software Engineer!"
         />
         <title>Fitri Mahdon</title>
       </Head>

@@ -18,25 +18,27 @@ export default function Home() {
     <Layout>
       <Container maxW={"1000px"}>
         {/* PROFILE IMAGE */}
-        <Box flexShrink={1} mt={{ base: 4, md: 5 }} textAlign="left">
+        <Box flexShrink={1} mt={{ base: 4, md: 5 }} textAlign="center">
           <Box display="inline-block" overflow="hidden">
             <Image
               src="/images/fit_1.jpg"
               alt="Profile image"
               objectFit="cover"
               boxSize="300px"
-              borderRadius={"15px"}
+              borderRadius={"50%"}
             />
-          </Box>
-        </Box>
-        {/* BIO AND NAME */}
-        <Box display={{ md: "flex" }}>
-          <Box flexGrow={1}>
+             <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Fitri Mahdon
             </Heading>
             <p>Software Engineer | Photographer</p>
           </Box>
+          </Box>
+         
+        </Box>
+        {/* BIO AND NAME */}
+        <Box display={{ md: "flex" }}>
+        
         </Box>
       </Container>
       {/* INTRODUCTION */}
