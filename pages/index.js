@@ -12,6 +12,7 @@ import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import Skills from "../components/skills";
+import Certifications from "../components/certifications";
 
 export default function Home() {
   return (
@@ -126,11 +127,15 @@ export default function Home() {
 
       <Section>
         <Heading as="h3" variant="section-title">
+          Certifications
+        </Heading>
+        <Certifications/>
+
+        <Heading as="h3" variant="section-title">
           Skills
         </Heading>
         <Skills />
-
-        <BioSection>
+        {/* <BioSection>
           <BioYear>Software Experience & Framework</BioYear>
           Ionic, Spring Boot (Java), Flask (Python), Adobe Photoshop, Lightroom
           Adobe
@@ -139,7 +144,7 @@ export default function Home() {
         <BioSection>
           <BioYear>Programming Languages</BioYear>
           Python, Java, C++, JavaScript, Typescript, VBA, PHP, SQL
-        </BioSection>
+        </BioSection> */}
       </Section>
     </Layout>
   );
