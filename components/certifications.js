@@ -2,13 +2,12 @@ import { Box, Container, Image, Tooltip } from "@chakra-ui/react";
 import { createRef } from "react";
 
 const certs = [
-  ["/images/certifications/psd.png", "PSD 1"],
-  ["/images/certifications/cloudpract.png", "AWS Cloud Practitioner"],
-  [
-    "/images/certifications/SAdeveloper.png",
-    "AWS Solutions Architect Associates",
-  ],
-];
+    ["/images/certifications/psd.png", "PSD 1"],
+    ["/images/certifications/cloudpract.png", "AWS Cloud Practitioner"],
+    ["/images/certifications/SAdeveloper.png", "AWS Solutions Architect Associates"],
+    ["/images/certifications/aws_dev.png", "AWS Developer Associates"],
+
+  ];
 
 const ref = createRef();
 
